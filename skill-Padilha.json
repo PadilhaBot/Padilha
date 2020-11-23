@@ -1,0 +1,1160 @@
+{
+  "intents": [
+    {
+      "intent": "BestProfessor",
+      "examples": [
+        {
+          "text": "CIn"
+        },
+        {
+          "text": "professor"
+        },
+        {
+          "text": "Qual é o melhor professor do CIn?"
+        },
+        {
+          "text": "Quem é o melhor professor do CIn?"
+        }
+      ],
+      "description": "User asks for best professor of CIn"
+    },
+    {
+      "intent": "DifferentMovie",
+      "examples": [
+        {
+          "text": "Já vi"
+        },
+        {
+          "text": "Não quero esse"
+        },
+        {
+          "text": "outro"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "DiscoverMovie",
+      "examples": [
+        {
+          "text": "Assistir"
+        },
+        {
+          "text": "bora"
+        },
+        {
+          "text": "bora ver um filme"
+        },
+        {
+          "text": "Gostaria"
+        },
+        {
+          "text": "Queria"
+        },
+        {
+          "text": "Quero"
+        },
+        {
+          "text": "Quero ver um filme"
+        },
+        {
+          "text": "To afim de ver"
+        }
+      ],
+      "description": "User says that wants to see a movie"
+    },
+    {
+      "intent": "DontKnow",
+      "examples": [
+        {
+          "text": "Não sei"
+        },
+        {
+          "text": "Qualquer um"
+        },
+        {
+          "text": "Sei lá"
+        },
+        {
+          "text": "Sei não"
+        }
+      ],
+      "description": "When the user says it doesn't know something"
+    },
+    {
+      "intent": "Goodbye",
+      "examples": [
+        {
+          "text": "Abraço"
+        },
+        {
+          "text": "Adeus"
+        },
+        {
+          "text": "Até a próxima"
+        },
+        {
+          "text": "Até mais nunca"
+        },
+        {
+          "text": "Ate nunca"
+        },
+        {
+          "text": "Falow"
+        },
+        {
+          "text": "Flw"
+        },
+        {
+          "text": "Tchau"
+        },
+        {
+          "text": "Vou dormir"
+        },
+        {
+          "text": "Vou embora"
+        },
+        {
+          "text": "Vou nessa"
+        },
+        {
+          "text": "Xau"
+        }
+      ],
+      "description": "When the user say goodbye"
+    },
+    {
+      "intent": "ignoreShit",
+      "examples": [
+        {
+          "text": "bcta"
+        },
+        {
+          "text": "buceta"
+        },
+        {
+          "text": "caraio"
+        },
+        {
+          "text": "corno"
+        },
+        {
+          "text": "cu"
+        },
+        {
+          "text": "foder"
+        },
+        {
+          "text": "otario"
+        },
+        {
+          "text": "pica"
+        },
+        {
+          "text": "puta"
+        },
+        {
+          "text": "rola"
+        }
+      ],
+      "description": "When the user says shit"
+    },
+    {
+      "intent": "Joke",
+      "examples": [
+        {
+          "text": "Me conta uma piada"
+        },
+        {
+          "text": "Me fala algo engraçado"
+        },
+        {
+          "text": "Me fala uma anedota"
+        },
+        {
+          "text": "Quero ouvir uma piada"
+        },
+        {
+          "text": "Triste"
+        }
+      ],
+      "description": "The user asks for a joke"
+    },
+    {
+      "intent": "Salutation",
+      "examples": [
+        {
+          "text": "Boa noite, Padilha"
+        },
+        {
+          "text": "Boa tarde, Padilha"
+        },
+        {
+          "text": "Bom dia, Padilha"
+        },
+        {
+          "text": "Coé"
+        },
+        {
+          "text": "dale"
+        },
+        {
+          "text": "eae"
+        },
+        {
+          "text": "Eai"
+        },
+        {
+          "text": "Eai, Padilha"
+        },
+        {
+          "text": "Oi"
+        },
+        {
+          "text": "Olá"
+        }
+      ],
+      "description": "Initial messages from user"
+    },
+    {
+      "intent": "Thanks",
+      "examples": [
+        {
+          "text": "Agradecido"
+        },
+        {
+          "text": "Muito obrigada"
+        },
+        {
+          "text": "Obg"
+        },
+        {
+          "text": "Obrigada"
+        },
+        {
+          "text": "Top"
+        },
+        {
+          "text": "ty"
+        },
+        {
+          "text": "Valeu"
+        },
+        {
+          "text": "Vlw"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Welcome",
+      "examples": [
+        {
+          "text": "start"
+        },
+        {
+          "text": "/start"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Confirmation",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Aham",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Já",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sim",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Yes",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Genre",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Acao",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Animacao",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Aventura",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Comedia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Documentario",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Drama",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Familia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fantasia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Faroeste",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ficcao cientifica",
+          "synonyms": [
+            "SciFi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Guerra",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Historia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Musical",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Policial",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Romance",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Suspense",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Terror",
+          "synonyms": [
+            "Horror"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "É o que, mano?"
+              },
+              {
+                "text": "??"
+              },
+              {
+                "text": "Midisgulbe, eu to nervouser, num entendi"
+              },
+              {
+                "text": "Fala mais alto, não consigo ler não kk"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "digress_in": "does_not_return",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_2_1570656747618"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_9_1570655125256",
+      "event_name": "input",
+      "dialog_node": "handler_10_1570655125266"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "De que gênero tu quer?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1570471373319",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1570471408259",
+      "previous_sibling": "node_1_1570473602892"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_1_1570478757179",
+      "output": {
+        "text": {
+          "values": [
+            "De que gênero tu quer?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1570471408860",
+      "conditions": "@Genre",
+      "event_name": "nomatch",
+      "dialog_node": "handler_1_1570478757179",
+      "previous_sibling": "handler_8_1570471408868"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_2_1570471408868",
+      "output": {},
+      "parent": "slot_3_1570471408860",
+      "context": {
+        "genre": "@Genre"
+      },
+      "conditions": "@Genre",
+      "event_name": "input",
+      "dialog_node": "handler_2_1570471408868"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Um gênero de filme po"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1570565153695",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1570565153702",
+      "previous_sibling": "handler_8_1570565153702"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_6_1570478520613",
+      "output": {},
+      "parent": "slot_3_1570478520611",
+      "context": {
+        "year": "@sys-number > 1900"
+      },
+      "conditions": "@sys-number > 1900",
+      "event_name": "input",
+      "dialog_node": "handler_6_1570478520613"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_8_1570471408868",
+      "output": {
+        "text": {
+          "values": [
+            "De que gênero tu quer?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1570471408860",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1570471408868",
+      "previous_sibling": "handler_2_1570471408868"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_8_1570478520613",
+      "output": {},
+      "parent": "slot_3_1570478520611",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1570478520613",
+      "previous_sibling": "handler_6_1570478520613"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_2_1570565153695",
+      "context": {
+        "genre": "@Genre"
+      },
+      "conditions": "@Genre",
+      "event_name": "input",
+      "dialog_node": "handler_8_1570565153702"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1570655125256",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1570655125269",
+      "previous_sibling": "handler_10_1570655125266"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1570664686596",
+      "actions": [
+        {
+          "name": "gabrieltenoriovaz%40gmail.com_dev/actions/padilha",
+          "type": "server",
+          "parameters": {
+            "year": "@sys-number.literal",
+            "genre": "$genre"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$my_result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "24a1efaf-ea30-4e10-a5a1-be745996efcc",
+            "password": "JZrdUMNw0WjlLA36OFYkc1MqHhek5KKJ7sMJVeMFtXVuRUudWYuoenR5cPPFYMXL"
+          }
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1570473602892"
+      },
+      "conditions": "#DifferentMovie",
+      "dialog_node": "node_10_1570662132833"
+    },
+    {
+      "type": "standard",
+      "title": "Movie suggestion result",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Esse aqui é FOADA: <? $my_result.title ?>"
+              },
+              {
+                "text": "<? $my_result.title ?> é mó manero"
+              },
+              {
+                "text": "<? $my_result.title ?> é bolado"
+              },
+              {
+                "text": "<? $my_result.title ?> é irado"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1570471373319",
+      "context": {},
+      "conditions": "$my_result",
+      "dialog_node": "node_1_1570473602892"
+    },
+    {
+      "type": "standard",
+      "title": "Salutation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To vendo que é sua primeira vez aqui, preciso te perguntar umas parada aí. Qual teu filme favorito?"
+              },
+              {
+                "text": "To vendo que é sua primeira vez aqui, preciso conhecer mais sobre você. Qual filme que tu viu e falou \"po, manero\"?"
+              },
+              {
+                "text": "To vendo que é sua primeira vez aqui, preciso te perguntar umas parada aí. Qual filme tu mais se amarra?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_2_1570656747618",
+      "context": {},
+      "conditions": "#Salutation",
+      "dialog_node": "node_2_1570131853020"
+    },
+    {
+      "type": "standard",
+      "title": "Say goodbye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Flw mane"
+              },
+              {
+                "text": "Já vai tarde parcero"
+              },
+              {
+                "text": "Até a próxima mane"
+              },
+              {
+                "text": "Flw"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Goodbye",
+      "dialog_node": "node_2_1570651338713",
+      "previous_sibling": "node_8_1570656566431"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Coé, mané"
+              },
+              {
+                "text": "Qualé"
+              },
+              {
+                "text": "Diz aí"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1570131853020"
+      },
+      "conditions": "#Welcome || welcome",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1570656747618",
+      "previous_sibling": "node_4_1570471373319"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nada, parcero"
+              },
+              {
+                "text": "Nada, parça"
+              },
+              {
+                "text": "Tamo junto, brow"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Thanks",
+      "dialog_node": "node_2_1570665156791"
+    },
+    {
+      "type": "frame",
+      "title": "Suggest movie",
+      "output": {
+        "generic": []
+      },
+      "actions": [
+        {
+          "name": "gabrieltenoriovaz%40gmail.com_dev/actions/padilha",
+          "type": "server",
+          "parameters": {
+            "year": "@sys-number.literal",
+            "genre": "$genre"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$my_result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "24a1efaf-ea30-4e10-a5a1-be745996efcc",
+            "password": "JZrdUMNw0WjlLA36OFYkc1MqHhek5KKJ7sMJVeMFtXVuRUudWYuoenR5cPPFYMXL"
+          }
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1570473602892"
+      },
+      "conditions": "#DiscoverMovie",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1570471373319",
+      "previous_sibling": "node_4_1570650774423"
+    },
+    {
+      "type": "standard",
+      "title": "ShitTalk",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ta me tirando, mano?"
+              },
+              {
+                "text": "Ta tirando onda com a minha cara?"
+              },
+              {
+                "text": "Vai te catar mané"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#ignoreShit",
+      "dialog_node": "node_4_1570650774423",
+      "previous_sibling": "node_2_1570651338713"
+    },
+    {
+      "type": "frame",
+      "title": "Choose genre",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Showw. Agora bora começar de verdade. Tu quer ver um filme de que agora?"
+              },
+              {
+                "text": "Top. Bora começar então. Quer ver que tipo de filme agora?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1570565525072",
+      "context": {
+        "actor": "<? input.text ?>",
+        "action": "save_actor"
+      },
+      "conditions": "true",
+      "dialog_node": "node_4_1570655628913"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_4_1570655628913",
+      "actions": [
+        {
+          "name": "gabrieltenoriovaz%40gmail.com_dev/actions/padilha",
+          "type": "server",
+          "parameters": {
+            "year": "@sys-number.literal",
+            "genre": "@Genre"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$my_result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "24a1efaf-ea30-4e10-a5a1-be745996efcc",
+            "password": "JZrdUMNw0WjlLA36OFYkc1MqHhek5KKJ7sMJVeMFtXVuRUudWYuoenR5cPPFYMXL"
+          }
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1570473602892"
+      },
+      "conditions": "@Genre",
+      "dialog_node": "node_4_1570655946958",
+      "previous_sibling": "node_7_1570655827082"
+    },
+    {
+      "type": "frame",
+      "title": "Favorite director",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu me amarro em filme de ação. Tu curte algum diretor?"
+              },
+              {
+                "text": "Eu curto filme policial. Tem algum diretor que tu se amarra no trabalho dele?"
+              },
+              {
+                "text": "Top. Mas fala aí, tu gosta de algum diretor?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1570563876965",
+      "context": {
+        "genre": "@Genre",
+        "action": "save_genre"
+      },
+      "conditions": "true",
+      "dialog_node": "node_7_1570565097674"
+    },
+    {
+      "type": "frame",
+      "title": "Favorite actor",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu curto $director também. Pprt, tem um ator ou atriz que tu curte?"
+              },
+              {
+                "text": "Me amarro no José Padilha. Tem algum ator ou atriz que tu acha pica?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1570565097674",
+      "context": {
+        "action": "save_director",
+        "director": "<? input.text ?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_7_1570565525072"
+    },
+    {
+      "type": "standard",
+      "title": "Random genre",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1570655628913",
+      "actions": [
+        {
+          "name": "gabrieltenoriovaz%40gmail.com_dev/actions/padilha",
+          "type": "server",
+          "parameters": {
+            "year": "@sys-number.literal",
+            "actor": "$actor",
+            "diretor": "$director"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$my_result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "24a1efaf-ea30-4e10-a5a1-be745996efcc",
+            "password": "JZrdUMNw0WjlLA36OFYkc1MqHhek5KKJ7sMJVeMFtXVuRUudWYuoenR5cPPFYMXL"
+          }
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#DontKnow",
+      "dialog_node": "node_7_1570655827082"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "De nada."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1570664686596",
+      "context": {
+        "genre": null
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_7_1570662700046",
+      "previous_sibling": "node_10_1570662132833"
+    },
+    {
+      "type": "standard",
+      "title": "Says best professor",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Filipe Calegario é TOOOOOP"
+              },
+              {
+                "text": "Filipe Calegario é MANEERO"
+              },
+              {
+                "text": "Filipe Calegario é o melhorrr"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#BestProfessor",
+      "dialog_node": "node_8_1570656566431",
+      "previous_sibling": "node_9_1570655281452"
+    },
+    {
+      "type": "frame",
+      "title": "Favorite genres",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<? $movies ?> é irado. Qual tipo de filme que tu se amarra mais?"
+              },
+              {
+                "text": "<? $movie ?> é massa. Diz um gênero de filme que tu curte."
+              },
+              {
+                "text": "Eu curto <? $movie ?> também. Que tipo de filme que tu gosta?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_2_1570131853020",
+      "context": {
+        "movie": "<? input.text ?>",
+        "action": "save_movies"
+      },
+      "conditions": "true",
+      "dialog_node": "node_9_1570563876965",
+      "previous_sibling": "slot_9_1570655125256"
+    },
+    {
+      "type": "standard",
+      "title": "Tell a joke",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Quantos graus tem um leão morto?\n– 360 graus, pois ele é uma ex-fera."
+              },
+              {
+                "text": "Porque a faxineira não luta karatê?\n– Porque ela já luta capoeira"
+              },
+              {
+                "text": "A enfermeira diz ao médico:\n– Tem um homem invisível na sala de espera.\nO médico responde:\n– Diga a ele que não posso vê-lo agora."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Joke",
+      "dialog_node": "node_9_1570655281452",
+      "previous_sibling": "node_9_1570660967123"
+    },
+    {
+      "type": "standard",
+      "title": "Salut",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eai, quer ver um filme?"
+              },
+              {
+                "text": "Bora ver um filme?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Salutation",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1570660967123",
+      "previous_sibling": "node_2_1570665156791"
+    },
+    {
+      "type": "standard",
+      "title": "Random movie result",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "De acordo com seus gostos acho que ty vai curtir <? $my_result.title ?>"
+              },
+              {
+                "text": "<? $my_result.title ?> é mó massa, de acordo com seus gostos acho que tu vai curtir"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1570655827082",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1570664686596"
+      },
+      "conditions": "$my_result",
+      "dialog_node": "node_9_1570664478618"
+    },
+    {
+      "type": "standard",
+      "parent": "node_1_1570473602892",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "true",
+      "dialog_node": "node_9_1570664686596"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1570565097674",
+      "variable": "$genre",
+      "dialog_node": "slot_2_1570565153695",
+      "previous_sibling": "node_7_1570565525072"
+    },
+    {
+      "type": "slot",
+      "title": "slot_3_1570471408860",
+      "output": {},
+      "parent": "node_4_1570471373319",
+      "variable": "$genre",
+      "dialog_node": "slot_3_1570471408860",
+      "previous_sibling": "handler_1_1570471408259"
+    },
+    {
+      "type": "slot",
+      "title": "slot_3_1570478520611",
+      "output": {},
+      "parent": "node_4_1570471373319",
+      "variable": "$year",
+      "dialog_node": "slot_3_1570478520611",
+      "previous_sibling": "slot_3_1570471408860"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1570131853020",
+      "dialog_node": "slot_9_1570655125256"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    },
+    "system_entities": {
+      "enabled": true
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Padilha",
+  "language": "pt-br",
+  "description": ""
+}
